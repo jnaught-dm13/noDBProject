@@ -1,0 +1,8 @@
+.main-search {
+  background-color: #fff;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 3vh;
+  width: 100%;
+}

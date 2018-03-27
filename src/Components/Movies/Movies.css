@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+}
+.main {
+  padding-top: 10px;
+}
+.popular-movie-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.popular-movies {
+  display: flex;
+  padding-bottom: 10px;
+  width: 30vw;
+}
+
+.movie-title {
+  overflow: hidden;
+  padding-left: 15px;
+  font-size: 19px;
+  color: rgb(4, 4, 177);
+  font-family: fantasy;
+  width: 15vw;
+}
+.pop-movie {
+  padding-top: 90px;
+  padding-bottom: 20px;
+  color: slateblue;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.bg-image {
+  background-image: url("./MovieImages/movieBG-image.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.search-input {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.search-movies {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.watchlist-container {
+  background-color: rgb(189, 189, 189);
+}
+.watch-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

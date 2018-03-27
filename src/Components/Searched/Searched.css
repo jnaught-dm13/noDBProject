@@ -1,0 +1,35 @@
+.popular-movies {
+  display: flex;
+  padding-bottom: 10px;
+  width: 30vw;
+}
+
+.movie-title {
+  padding-left: 15px;
+  font-size: 19px;
+  color: rgb(4, 4, 177);
+  font-family: fantasy;
+  width: 15vw;
+}
+
+.search-movie-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.search-movies {
+  display: flex;
+  padding-bottom: 10px;
+  width: 30vw;
+}
+
+.search-title {
+  overflow: hidden;
+  padding-left: 15px;
+  font-size: 19px;
+  color: rgb(4, 4, 177);
+  font-family: fantasy;
+  width: 15vw;
+}
