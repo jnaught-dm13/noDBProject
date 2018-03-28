@@ -5,7 +5,7 @@ export default class EditTitle extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      siteTitle: "The Movie Database",
+      siteTitle: "",
       userInput: "",
       toggle: false
     };
@@ -25,7 +25,7 @@ export default class EditTitle extends Component {
         <div>
           <div>{this.state.siteTitle}</div>
           <button onClick={() => this.setState({ toggle: true })}>
-            Edit Title
+            Edit Watchlist Title
           </button>
         </div>
       );
@@ -33,7 +33,7 @@ export default class EditTitle extends Component {
       return (
         <div>
           <input
-            placeholder="Enter Title Name"
+            placeholder="Enter Watchlist Name"
             onChange={e => this.setState({ userInput: e.target.value })}
           />
           <button onClick={this.editTitle}>Submit</button>

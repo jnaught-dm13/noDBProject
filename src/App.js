@@ -12,7 +12,8 @@ class App extends Component {
     this.state = {
       movie: [],
       userInput: "",
-      results: []
+      results: [],
+      title: "The Movie Database"
     };
   }
 
@@ -20,7 +21,7 @@ class App extends Component {
     return (
       <div>
         <div className="fixed-header-postition">
-          <Header />
+          <Header title={this.state.title} />
         </div>
 
         <div className="main-container">

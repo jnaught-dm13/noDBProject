@@ -1,5 +1,5 @@
 .fixed-header-postition {
-  position: fixed;
+  /* position: fixed; */
   margin-top: -10px;
   background-color: #fff;
 }

@@ -59,6 +59,7 @@ export default class Movies extends Component {
     });
   }
   render() {
+    console.log(this.props);
     let seeker = this.state.searched.map((e, i) => {
       if (i >= 6) {
         return null;

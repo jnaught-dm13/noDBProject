@@ -1,19 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Header.css";
 
 import EditTitle from "../EditTitle/EditTitle";
 
-export default class Header extends Component {
-  render() {
-    return (
-      <div className="main">
-        <header className="headerBox">
-          <h1>
-            <EditTitle />{" "}
-          </h1>
-          <div />
-        </header>
+export default function Header(props) {
+  return (
+    <div>
+      <div className="headerBox">
+        <h1> Welcome to {props.title}</h1>
       </div>
-    );
-  }
+      <div className="nav">
+        <EditTitle />
+      </div>
+    </div>
+  );
 }
